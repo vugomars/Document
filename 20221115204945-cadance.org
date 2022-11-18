@@ -3,6 +3,8 @@
 :END:
 #+title: Cadance Coding Language
 
++ [[https://github.com/emerald-dao/beginner-dapp-course][Beginner Dapp Course]]
+
 | Lesson | Time | Main Sections | Lecture        | Tutorial                                 | Schedule | Materials | Notes                                          |
 |      1 | 2h   | Introduction  |                | - What is Flow Blockchain                |          | -         |                                                |
 |        |      |               |                | - What is Cadence                        |          |           |                                                |
