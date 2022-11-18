@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       1C710DB9-FB85-4A0B-9699-25B9601C5A4D
+:END:
+#+title: Cadance Coding Language
+
+| Lesson | Time | Main Sections | Lecture        | Tutorial                                 | Schedule | Materials | Notes                                          |
+|      1 | 2h   | Introduction  |                | - What is Flow Blockchain                |          | -         |                                                |
+|        |      |               |                | - What is Cadence                        |          |           |                                                |
+|      2 | 2h   | Development   | Basic Concepts | - Transactions & Scripts                 |          |           |                                                |
+|        |      |               |                | - Frist Smartcontract Simple             |          |           |                                                |
+|        |      |               |                | - Basic Types & Optionals                |          |           |                                                |
+|        |      |               |                | - Arrays, Dictionaries & Struct          |          |           |                                                |
+|        |      |               |                | - Seting up Github/Our Dapp              |          |           |                                                |
+|      3 | 2h   |               |                | - Resources                              |          |           | - Cadence Basic                                |
+|        |      |               |                | - References                             |          |           | - Deploying a contract to testnet              |
+|        |      |               |                | - Access Control                         |          |           | - Interacting with our contract using flow CLI |
+|        |      |               |                | - Resource interface                     |          |           |                                                |
+|        |      |               |                | - Account Storage & Capabilities         |          |           |                                                |
+|      4 | 2h   |               | Project        | - Create NFT Contract A-Z                |          |           |                                                |
+|      5 | 2h   |               | Core Concepts  | - Private/Public Capabilities            |          |           |                                                |
+|        |      |               |                | - Pre/Post Conditions                    |          |           |                                                |
+|        |      |               |                | - Contract Interfaces                    |          |           |                                                |
+|      6 | 2h   |               | Project        | - Create Fungible-token Contract         |          |           |                                                |
+|      7 | 2h   |               |                | - Anti-Pattern                           |          |           |                                                |
+|        |      |               |                | - Measuring Time                         |          |           |                                                |
+|        |      |               |                | - Enums                                  |          |           |                                                |
+|        |      |               |                | - Optional Binding & Cool Optional Stuff |          |           |                                                |
+|      8 | 2h   |               |                | - Events                                 |          |           |                                                |
+|        |      |               |                | - Private Capabilities                   |          |           |                                                |
+|        |      |               |                | - Switch Statements                      |          |           |                                                |
+|        |      |               |                | - Optional REferences                    |          |           |                                                |
+|        |      |               |                | - Account Storeage Iteration             |          |           |                                                |
