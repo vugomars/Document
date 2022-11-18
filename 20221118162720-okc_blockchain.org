@@ -28,52 +28,12 @@
 #+end_quote
 
 
-* Materials
-+
-+ [[https://docs.tendermint.com/v0.34/introduction/what-is-tendermint.html][Tendermint]]
-+ [[https://docs.cosmos.network/main][Cosmos Blockchain]]
-+ [[https://kips.readthedocs.io/en/latest/][Okexchain Improvement Proposals (KIPs)]]
-+
-
-* Introduction
-** What is OKC?
-- The Infrastructure of Decentralized Exchange
-** What is Cosmos?
-*** Analysis & Review Cosmos Blockchain
-*** What is Tendermint Core
-* Development
-** Install OKC
-** TODO Solidity Languages / Build a series /
-*** Remix
-*** Truffle
-*** Hardhat
-** Basic Concepts
-*** Connect & Work on OKC Blockchain
-*** Create Wallets
-*** Accounts
-*** Fees
-*** Transactions
-*** JSON-RPC Methods
-*** Deploy
-** KIP20 Tokens
-** How to use SDK
-* Infrastructure
-** Delegators
-*** Introduction
-** Validators
-** IBC
-** WASM
-** Core Concepts
-
 | Lesson | Time | Main Sections | Lecture            | Tutorial                              | Schedule | Materials                          | Notes |
-|--------+------+---------------+--------------------+---------------------------------------+----------+------------------------------------+-------|
 |      1 | 2h   | Introduction  |                    | - What is OKC                         |          | [[https://www.youtube.com/watch?v=D6iJZe106dU][Infratructures Cosmos & Tendermint]] |       |
-|        |      |               |                    | - What is Cosmos Blockchain           |          |                                    |       |
+|        |      |               |                    | - What is Cosmos Blockchain           |          | [[https://docs.tendermint.com/v0.34/introduction/what-is-tendermint.html][Tendermint]]                                   |       |
 |        |      |               |                    | - What is Tendermint                  |          |                                    |       |
-|--------+------+---------------+--------------------+---------------------------------------+----------+------------------------------------+-------|
 |      2 | 2h   | Development   |                    | - Install OKC                         |          |                                    |       |
 |        |      |               |                    | - Solidity Languages                  |          |                                    |       |
-|--------+------+---------------+--------------------+---------------------------------------+----------+------------------------------------+-------|
 |      3 | 2h   |               | Basic Concepts     | - Connect & Work on OKC               |          |                                    |       |
 |        |      |               |                    | - Create Wallets                      |          |                                    |       |
 |        |      |               |                    | - Accounts                            |          |                                    |       |
@@ -81,18 +41,13 @@
 |        |      |               |                    | - Transactions                        |          |                                    |       |
 |        |      |               |                    | - JSON-RPC Methods                    |          |                                    |       |
 |        |      |               |                    | - Deploy                              |          |                                    |       |
-|--------+------+---------------+--------------------+---------------------------------------+----------+------------------------------------+-------|
 |      4 | 2h   | Build Project | Build Contract DEX | - What is KIP20 Tokens                |          |                                    |       |
 |        |      |               |                    | - Another KIP                         |          |                                    |       |
 |        |      |               |                    | - Analysis Function To build          |          |                                    |       |
-|--------+------+---------------+--------------------+---------------------------------------+----------+------------------------------------+-------|
 |      5 | 2h   |               | Finish Contract    | - Build & Testing Contract            |          |                                    |       |
-|--------+------+---------------+--------------------+---------------------------------------+----------+------------------------------------+-------|
 |      6 | 2h   |               | Building Front-end | - Build client interface              |          |                                    |       |
 |        |      |               |                    | - Nextjs 13 Tutorial                  |          |                                    |       |
-|--------+------+---------------+--------------------+---------------------------------------+----------+------------------------------------+-------|
 |      7 | 2h   |               | Interactive        | - Interactive interface with contract |          |                                    |       |
-|--------+------+---------------+--------------------+---------------------------------------+----------+------------------------------------+-------|
 |      8 | 2h   | Infratructure | Delegators         | - Overview                            |          |                                    |       |
 |        |      |               |                    | - Staking Mechanics / Weight          |          |                                    |       |
 |        |      |               |                    | - Punishment                          |          |                                    |       |
@@ -101,10 +56,8 @@
 |        |      |               |                    | - Verifying Transactions              |          |                                    |       |
 |        |      |               |                    | - Accounts Security                   |          |                                    |       |
 |        |      |               |                    | - Supply Chain Attacks                |          |                                    |       |
-|--------+------+---------------+--------------------+---------------------------------------+----------+------------------------------------+-------|
 |      9 | 2h   |               | WASM               | - Wasm Overview                       |          |                                    |       |
 |        |      |               |                    | - Architecture in OKC                 |          |                                    |       |
-|--------+------+---------------+--------------------+---------------------------------------+----------+------------------------------------+-------|
 |        |      |               |                    |                                       |          |                                    |       |
 |        |      |               |                    |                                       |          |                                    |       |
 |        |      |               |                    |                                       |          |                                    |       |
