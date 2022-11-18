@@ -25,3 +25,4 @@
 
 + Syllabus
   + [[./20221118162720-okc_blockchain.org][OKC Blockchain]]
+  + [[./20221115204945-cadance.org][Cadence Language & Flow Blockchain]]
