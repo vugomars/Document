@@ -21,4 +21,4 @@
     + API
     + SDK
 
-* [[id:17369D70-1BFA-4321-9CD5-8ADF08395C12][OKC Blockchain]]
+* [[./20221118162720-okc_blockchain.org][OKC Blockchain]]
