@@ -1,5 +1,6 @@
 #+TITLE: ALL DOCUMENT
 
+#+begin_quote
 - Each Syllabus will always have 3 main sections.
   + Materials
   + Introduction
@@ -20,5 +21,7 @@
     + Resources
     + API
     + SDK
+#+end_quote
 
-* [[./20221118162720-okc_blockchain.org][OKC Blockchain]]
++ Syllabus
+  + [[./20221118162720-okc_blockchain.org][OKC Blockchain]]
