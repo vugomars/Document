@@ -28,36 +28,47 @@
 #+end_quote
 
 
-| Lesson | Time | Main Sections | Lecture            | Tutorial                              | Schedule | Materials                          | Notes |
-|      1 | 2h   | Introduction  |                    | - What is OKC                         |          | [[https://www.youtube.com/watch?v=D6iJZe106dU][Infratructures Cosmos & Tendermint]] |       |
-|        |      |               |                    | - What is Cosmos Blockchain           |          | [[https://docs.tendermint.com/v0.34/introduction/what-is-tendermint.html][Tendermint]]                                   |       |
-|        |      |               |                    | - What is Tendermint                  |          |                                    |       |
-|      2 | 2h   | Development   |                    | - Install OKC                         |          |                                    |       |
-|        |      |               |                    | - Solidity Languages                  |          |                                    |       |
-|      3 | 2h   |               | Basic Concepts     | - Connect & Work on OKC               |          |                                    |       |
-|        |      |               |                    | - Create Wallets                      |          |                                    |       |
-|        |      |               |                    | - Accounts                            |          |                                    |       |
-|        |      |               |                    | - Fees                                |          |                                    |       |
-|        |      |               |                    | - Transactions                        |          |                                    |       |
-|        |      |               |                    | - JSON-RPC Methods                    |          |                                    |       |
-|        |      |               |                    | - Deploy                              |          |                                    |       |
-|      4 | 2h   | Build Project | Build Contract DEX | - What is KIP20 Tokens                |          |                                    |       |
-|        |      |               |                    | - Another KIP                         |          |                                    |       |
-|        |      |               |                    | - Analysis Function To build          |          |                                    |       |
-|      5 | 2h   |               | Finish Contract    | - Build & Testing Contract            |          |                                    |       |
-|      6 | 2h   |               | Building Front-end | - Build client interface              |          |                                    |       |
-|        |      |               |                    | - Nextjs 13 Tutorial                  |          |                                    |       |
-|      7 | 2h   |               | Interactive        | - Interactive interface with contract |          |                                    |       |
-|      8 | 2h   | Infratructure | Delegators         | - Overview                            |          |                                    |       |
-|        |      |               |                    | - Staking Mechanics / Weight          |          |                                    |       |
-|        |      |               |                    | - Punishment                          |          |                                    |       |
-|        |      |               |                    | - Key Managements                     |          |                                    |       |
-|        |      |               |                    | - Software Vulnerabilities            |          |                                    |       |
-|        |      |               |                    | - Verifying Transactions              |          |                                    |       |
-|        |      |               |                    | - Accounts Security                   |          |                                    |       |
-|        |      |               |                    | - Supply Chain Attacks                |          |                                    |       |
-|      9 | 2h   |               | WASM               | - Wasm Overview                       |          |                                    |       |
-|        |      |               |                    | - Architecture in OKC                 |          |                                    |       |
-|        |      |               |                    |                                       |          |                                    |       |
-|        |      |               |                    |                                       |          |                                    |       |
-|        |      |               |                    |                                       |          |                                    |       |
+| Lesson | Time | Main Sections | Lecture            | Tutorial                              | Schedule | Materials                            | Notes |
+|      1 | 2h   | Introduction  |                    | - What is OKC                         |          | [[https://www.youtube.com/watch?v=D6iJZe106dU][Infratructures Cosmos & Tendermint]]   |       |
+|        |      |               |                    | - What is Cosmos Blockchain           |          | [[https://docs.tendermint.com/v0.34/introduction/what-is-tendermint.html][Tendermint]]                           |       |
+|        |      |               |                    | - What is Tendermint                  |          |                                      |       |
+|      2 | 2h   | Development   |                    | - Install OKC                         |          |                                      |       |
+|        |      |               |                    | - Solidity Languages                  |          |                                      |       |
+|      3 | 2h   |               | Basic Concepts     | - Connect & Work on OKC               |          |                                      |       |
+|        |      |               |                    | - Create Wallets                      |          |                                      |       |
+|        |      |               |                    | - Accounts                            |          |                                      |       |
+|        |      |               |                    | - Fees                                |          |                                      |       |
+|        |      |               |                    | - Transactions                        |          |                                      |       |
+|        |      |               |                    | - JSON-RPC Methods                    |          |                                      |       |
+|        |      |               |                    | - Deploy                              |          |                                      |       |
+|      4 | 2h   | Build Project | Build Contract DEX | - What is KIP20 Tokens                |          |                                      |       |
+|        |      |               |                    | - Another KIP                         |          |                                      |       |
+|        |      |               |                    | - Analysis Function To build          |          |                                      |       |
+|      5 | 2h   |               | Finish Contract    | - Build & Testing Contract            |          |                                      |       |
+|      6 | 2h   |               | Building Front-end | - Build client interface              |          |                                      |       |
+|        |      |               |                    | - Nextjs 13 Tutorial                  |          |                                      |       |
+|      7 | 2h   |               | Interactive        | - Interactive interface with contract |          |                                      |       |
+|      8 | 2h   | Infratructure | Delegators         | - Overview                            |          |                                      |       |
+|        |      |               |                    | - Staking Mechanics / Weight          |          |                                      |       |
+|        |      |               |                    | - Punishment                          |          |                                      |       |
+|        |      |               |                    | - Key Managements                     |          |                                      |       |
+|        |      |               |                    | - Software Vulnerabilities            |          |                                      |       |
+|        |      |               |                    | - Verifying Transactions              |          |                                      |       |
+|        |      |               |                    | - Accounts Security                   |          |                                      |       |
+|        |      |               |                    | - Supply Chain Attacks                |          |                                      |       |
+|      9 | 2h   |               | WASM               | - Wasm Overview                       |          | [[https://docs.cosmwasm.com/dev-academy/intro/][COSMWASM Dev Academy]]                 |       |
+|        |      |               |                    | - Architecture in OKC                 |          | [[https://docs.cosmwasm.com/tutorials/videos-workshops/][Video Workshop]]                       |       |
+|        |      |               |                    |                                       |          |                                      |       |
+|        |      |               |                    |                                       |          | https://github.com/cosmos/cosmos-sdk |       |
+|     10 | 2h   |               | Core Concepts      | - Basic Concepts                      |          |                                      |       |
+|        |      |               |                    | - Fee Models                          |          |                                      |       |
+|        |      |               |                    | - On-chain Governance                 |          |                                      |       |
+|        |      |               |                    | - Matching System                     |          |                                      |       |
+|        |      |               |                    | - Sentry node                         |          |                                      |       |
+|        |      |               |                    | - Format Address                      |          |                                      |       |
+|     11 | 2h   | Resources     | OKC Client         | - Genesis Files                       |          |                                      |       |
+|        |      |               |                    | - OKC Client                          |          |                                      |       |
+|        |      |               |                    | - OKC Snapshot                        |          |                                      |       |
+|        |      |               |                    | - REST API                            |          |                                      |       |
+|--------+------+---------------+--------------------+---------------------------------------+----------+--------------------------------------+-------|
+|     12 | 4h  |  Final Projects |  Build A Final Project |  - Build a DEX full Features         |          |                                      | - Video Record |
