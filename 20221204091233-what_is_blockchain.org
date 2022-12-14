@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       2D3B2D68-ECEB-4169-B48A-26E30EE217F0
+:ROAM_ALIASES: "Courses - Day 1 - What is Blockchain?"
 :END:
 #+title: What is Blockchain?
 
@@ -47,6 +48,7 @@ X=0 -> X=1
 + Danh sách liên kết của các block - một block sẽ chứa 1 lượng thông tin nhất định
 + Các thành viên trong hệ thông blockchain sẽ cùng nhau chia sẻ 1 lượng dữ liệu cùng nhau để tạo ra 1 loại dữ liệu duy nhất.
 + =các dữ liệu sẽ được công khai, và có tính chất append-only=
+
 * Blockchain Types
 + Permissionless Blockchain
   + Any one can access freely
@@ -143,7 +145,7 @@ echo "My Name i's Dang Quang Vu " | sha256sum
 
 * Cryptocurrency
 ** TimeLine
-[[./image/timeline.png][TimeLine]]
+[[./image/timeline.png]]
 
 * Blockchain Use Cases
 * Layer
@@ -156,28 +158,31 @@ echo "My Name i's Dang Quang Vu " | sha256sum
 | Layer-0: Accounting - Settlement              |
 |-----------------------------------------------|
 | HardWare                                      |
-|-                                            |
+|-----------------------------------------------|
 
 * Transportation
 + Mobility-as-a-Service
 + Decision-making ability in Autonomous Driving
+
 * Health
 + Monitoring Patients
 + Electronic Health Record
 + Drug traceability
+
 * E-government
 + E-Voting
 + Centralized bank digital currency
 + Identity
+
 * Security
 + Domain name system
 + Public key infrastructure
 + Log Event Storage
+
 * Mobile Network - 5G, 6G
 + Spectrum sharing
 + Edge Computing
-* Supply Chain
-* Process Mining
+
 * Web3
 + KeyWords
   + Decentralized Web

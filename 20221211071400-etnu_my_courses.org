@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       E60E134A-86CB-4CBE-A104-525C0C43D5C8
+:END:
+#+title: eTNU - My Courses
+
+* Semester 1
+** [[id:73FC11DD-6BC3-4A7E-9DA4-69885CD01F0A][Philosophy Mac-lenin]]
+** [[id:F3711DA5-E95D-4D4B-80FE-EC5D33A5F436][Calculus]]

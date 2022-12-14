@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       73FC11DD-6BC3-4A7E-9DA4-69885CD01F0A
+:ROAM_ALIASES: "eTNU - Semester 1 - Philosophy Mac Lenin"
+:END:
+#+title: Philosophy Mac-lenin
+
+[[https://tnu.aum.edu.vn/course/view.php?id=4794][Philosophy Mac-Lenin]]
+
+* Week 1: Philosophy & the role of philosophy in social life
+DEADLINE: <2022-12-17 Sat>
+
+* Week 2: Dialectical Materialism (P1)
+DEADLINE: <2022-12-24 Sat>
+
+* Week 3: Dialectical Materialism (P2)
+DEADLINE: <2022-12-31 Sat>
+
+* Week 4: Dialectical Materialism (P3)
+DEADLINE: <2023-01-07 Sat>
+
+* Week 5: Historical Materialism (P1)
+DEADLINE: <2023-01-14 Sat>
+
+* Week 6: Historical Materialism (P2)
+DEADLINE: <2023-02-04 Sat>
+
+* Week 7: Historical Materialism (P3)
+DEADLINE: <2023-02-18 Sat>
+
+* Week 8: Historical Materialism (P4)
+DEADLINE: <2023-02-25 Sat>
+
+* Week 9: Review
+DEADLINE: <2023-03-11 Sat>

@@ -1,0 +1,96 @@
+:PROPERTIES:
+:ID:       F3711DA5-E95D-4D4B-80FE-EC5D33A5F436
+:END:
+#+title: Calculus
+
+* Schedule
+** TODO Week 1: Functions, limits and continuity                       :math:
+DEADLINE: <2022-12-17 Sat>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:ETag:     "3341994704552000"
+:entry-id: uve6tg8lh55ee5fsnt3l9l11t4/s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+
+** TODO Week 2: Derivatives and differentials                          :math:
+DEADLINE: <2022-12-24 Sat>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:ETag:     "3341994782988000"
+:entry-id: c6tghsjlkdrdr6i24u958d6j2k/s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+
+** TODO Week 3: Integral calculus                                      :math:
+DEADLINE: <2022-12-31 Sat>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:ETag:     "3341994857082000"
+:entry-id: lvfnjt18gbuppcjs8bjgi8tirk/s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+
+** TODO Week 4: Test 1                                                 :math:
+DEADLINE: <2023-01-07 Sat>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:ETag:     "3341994945878000"
+:entry-id: kn513kl3ht4p8mkb934047m1dk/s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+
+** TODO Week 5: Multivariable function                                 :math:
+DEADLINE: <2023-01-14 Sat>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:ETag:     "3341995044860000"
+:entry-id: p0p6b0f1ohtino7gcvqkencpno/s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+
+** TODO Week 6: Differential Equation                                  :math:
+DEADLINE: <2023-04-02 Sun>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:ETag:     "3341995161546000"
+:entry-id: 0jcr0njha29honm51cl389ftq4/s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+
+** TODO Week 7: Test 2                                                 :math:
+DEADLINE: <2023-02-18 Sat>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:ETag:     "3341995389488000"
+:entry-id: b5kdql745qm33ot8i9beli6q9s/s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+
+** TODO Week 8: Review :math:
+DEADLINE: <2023-02-25 Sat>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:ETag:     "3341995399904000"
+:entry-id: qs57fbts269jqq7eseoamv67ks/s46oeu2bmec42u0npm837dcmuk@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+
+** TODO Week 9-10: Review & Final Test :math:
+DEADLINE: <2023-03-11 Sat>
