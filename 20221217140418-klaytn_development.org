@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       04377BDA-1DCD-44FC-A717-6BBCEEC853E9
+:END:
+#+title: Klaytn Development
+
+
+| Lesson | Time | Main Sections           | Lecture        | Tutorial                                               | Notes        |
+|--------+------+-------------------------+----------------+--------------------------------------------------------+--------------|
+|      1 | 2h   | Introduction            |                | - What is Klaytn                                       |              |
+|        |      |                         |                | - Why Klaytn                                           |              |
+|        |      |                         |                | - Consensus                                            |              |
+|        |      |                         |                | - =Logical Subnetworks =                               |              |
+|        |      |                         |                | ( Core Cell/ Service Chain)                            |              |
+|--------+------+-------------------------+----------------+--------------------------------------------------------+--------------|
+|      2 | 2h   | Basic Concepts          |                | - Install Development Tools                            |              |
+|        |      |                         |                | - Setup Environment Development                        |              |
+|        |      |                         |                | - Write and Deploy Simple                              |              |
+|        |      |                         |                | Contract on klaytn Network                             |              |
+|--------+------+-------------------------+----------------+--------------------------------------------------------+--------------|
+|      3 | 2h   | Basic Solidity Language |                | - How to use Remix IDE                                 | If Necessary |
+|        |      |                         |                | - Basic concepts of Language                           |              |
+|        |      |                         |                | - Smart Money - Deposits & Withdraw contract           |              |
+|        |      |                         |                | - Introduction JSON-RPC APIs/ Klaytn SDKs              |              |
+|--------+------+-------------------------+----------------+--------------------------------------------------------+--------------|
+|      4 | 2h   | Solidity Advanced       |                | - Ownership, Possession                                |              |
+|        |      |                         |                | - The Double Spending Problem                          |              |
+|        |      |                         |                | - Transaction & Wallet & Hashing                       |              |
+|--------+------+-------------------------+----------------+--------------------------------------------------------+--------------|
+|      5 | 2h   | Project Building        | Simple Project | - Event Triggles/ Supply Chain Example & and Unit Test |              |
+|        |      |                         |                | - Some Problem  Security of Solidity (SmartContract)   |              |
+|--------+------+-------------------------+----------------+--------------------------------------------------------+--------------|
+|      6 | 2h   | Tokenization            | Token          | - Asset Tokenization Using OpenZeppelin & Truffle      |              |
+|        |      |                         |                | - Klaytn Native Coin                                   |              |
+|--------+------+-------------------------+----------------+--------------------------------------------------------+--------------|
+|    7-8 | 4h   | Building A Big Project  | Web3           | - Build a DApp and Deploy on Service Chain Network     |              |
+|        |      |                         |                | - Test & Check Deployment                              |              |
+|        |      |                         |                | - Check Security                                       |              |
+|--------+------+-------------------------+----------------+--------------------------------------------------------+--------------|

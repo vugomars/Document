@@ -66,11 +66,12 @@ X=0 -> X=1
   + Examples: Ripple
 
 * Thành phần của 1 Blockchain
-+ Consensus
-+ Decentralized Model
-+ Network model
-+ Data model
-+ Cryptographic schemes
+
++ Consensus - TPoS - Thresholded Proof of Stake
++ Network model - Asynchonous / Partial Synchronous
++ Data model / Account
++ Cryptographic schemes / Merkle Tree
++ Decentralized Model - Sharding
 
 * Consensus - Cơ chế đồng thuận
 + Nhiệm Vụ Chính
@@ -145,7 +146,7 @@ echo "My Name i's Dang Quang Vu " | sha256sum
 
 * Cryptocurrency
 ** TimeLine
-[[./image/timeline.png]]
+[[./image/timeline.png][TimeLine]]
 
 * Blockchain Use Cases
 * Layer
@@ -163,12 +164,10 @@ echo "My Name i's Dang Quang Vu " | sha256sum
 * Transportation
 + Mobility-as-a-Service
 + Decision-making ability in Autonomous Driving
-
 * Health
 + Monitoring Patients
 + Electronic Health Record
 + Drug traceability
-
 * E-government
 + E-Voting
 + Centralized bank digital currency
