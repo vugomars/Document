@@ -1,0 +1,106 @@
+:PROPERTIES:
+:ID:       5FF40B0B-F867-4C83-B617-E826C1C8C453
+:END:
+#+title: VBI - Near Protocol 1 - Structure of a SmartContract
+
+#+NAME: Contract.ts
+#+begin_src typescript
+import {
+  NearBindgen,
+  near,
+  call,
+  view,
+  LookupMap,
+  initialize,
+} from "near-sdk-js";
+
+@NearBindgen({})
+class VNFTContract {
+  owner_id: string;
+  owner_by_id: LookupMap;
+  constructor() {
+    this.owner_id = "";
+    this.owner_by_id = new LookupMap("o");
+  }
+
+  @initialize({})
+  init({ owner_id, owner_by_id_prefix }) {
+    this.owner_id = owner_id;
+    this.owner_by_id = new LookupMap(owner_by_id_prefix);
+  }
+}
+#+end_src
+
+#+begin_src sh :exports no :results output
+pnpm run deploy
+#+end_src
+
+#+NAME: Locally Login Wallet
+#+begin_src sh :exports no :results output
+near login
+#+end_src
+
+#+RESULTS:
+#+begin_example
+
+Please authorize NEAR CLI on at least one of your accounts.
+
+If your browser doesn't automatically open, please visit this URL
+https://wallet.testnet.near.org/login/?referrer=NEAR+CLI&public_key=ed25519%3A7pWvaPHyKxKXHn8jFwwCZo4w5eMfeJcoJjWc2q11rkHM&success_url=http%3A%2F%2F127.0.0.1%3A5001
+Please authorize at least one account at the URL above.
+
+Which account did you authorize for use with NEAR CLI?
+Enter it here (if not redirected automatically):
+Logged in as [ dangquangvurust.testnet ] with public key [ ed25519:7pWvaP... ] successfully
+
+#+end_example
+
+
+#+NAME: call init
+#+HEADER: :var Id="dev-1672279110061-87269671860754"
+#+begin_src sh :exports no :results output :var Id= :var Id=accountId
+near call dev-1672279110061-87269671860754 init '{"owner_id" : "dev-1672279110061-87269671860754", "owner_by_id_prefix": "vugomars"}' --accountId dev-1672279110061-87269671860754
+#+end_src
+
+#+RESULTS:
+: Scheduling a call: dev-1672279110061-87269671860754.init({"owner_id" : "dev-1672279110061-87269671860754", "owner_by_id_prefix": "vugomars"})
+: Doing account.functionCall()
+: Transaction Id G38sPKPrP83zHYEeBkhG7WcQpwgb2ExKgE7Mcr9gvd4q
+: To see the transaction in the transaction explorer, please open this url in your browser
+: https://explorer.testnet.near.org/transactions/G38sPKPrP83zHYEeBkhG7WcQpwgb2ExKgE7Mcr9gvd4q
+: ''
+
+#+NAME: call init again
+#+begin_example
+Scheduling a call: dev-1672279110061-87269671860754.init({"owner_id" : "dev-1672279110061-87269671860754", "owner_by_id_prefix": "vugomars"})
+Doing account.functionCall()
+Receipt: AMX77rWBhX2HbMEeL5RAoPsfwbMrzPSMyTgkvbrtE8gG
+ServerTransactionError: {"index":0,"kind":{"ExecutionError":"Smart contract panicked: Contract already initialized\n    at init (build/hello_near.js:497)\n"}}
+    at Object.parseResultError (/Users/vudangquang/.nvm/versions/node/v16.18.0/lib/node_modules/near-cli/node_modules/near-api-js/lib/utils/rpc_errors.js:31:29)
+    at Account.signAndSendTransactionV2 (/Users/vudangquang/.nvm/versions/node/v16.18.0/lib/node_modules/near-cli/node_modules/near-api-js/lib/account.js:160:36)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async scheduleFunctionCall (/Users/vudangquang/.nvm/versions/node/v16.18.0/lib/node_modules/near-cli/commands/call.js:57:38)
+    at async Object.handler (/Users/vudangquang/.nvm/versions/node/v16.18.0/lib/node_modules/near-cli/utils/exit-on-error.js:52:9) {
+  type: 'FunctionCallError',
+  context: undefined,
+  index: 0,
+  kind: {
+    ExecutionError: 'Smart contract panicked: Contract already initialized\n' +
+      '    at init (build/hello_near.js:497)\n'
+  },
+  transaction_outcome: {
+    block_hash: '3SQaUmL5ABsFAWHSQrAprbGJhGTCFUCtTR4oKJM1AbLj',
+    id: 'FrrBnXZfC4CrksLBwBL9X1a8cQBTsa3QLzmtdxGJTaG6',
+    outcome: {
+      executor_id: 'dev-1672279110061-87269671860754',
+      gas_burnt: 2428106582522,
+      logs: [],
+      metadata: [Object],
+      receipt_ids: [Array],
+      status: [Object],
+      tokens_burnt: '242810658252200000000'
+    },
+    proof: [ [Object], [Object], [Object] ]
+  }
+}
+#+end_example
